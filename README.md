@@ -1,6 +1,6 @@
 # +nil [![[version]](https://badge.fury.io/rb/null_plus.svg)](http://badge.fury.io/rb/null_plus)  [![[travis]](https://travis-ci.org/janlelis/null_plus.png)](https://travis-ci.org/janlelis/null_plus)
 
-This gem redefines Ruby's unary `+` operator to turn null objects into nil. By default, the unary `+` operator is not used in Ruby, so overloading it is not so dangerous as it might have sound to you when you read it.
+This gem redefines Ruby's unary `+` operator to turn null objects into nil. By default, the unary `+` operator is not used by Ruby, so overloading it is not so dangerous as it might have sounded to you when you read it.
 
 Every object that returns [true for `null?`](https://github.com/janlelis/null_question) is considered a null object.
 
