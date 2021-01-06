@@ -1,4 +1,4 @@
-# +`nil` [![[version]](https://badge.fury.io/rb/null_plus.svg)](http://badge.fury.io/rb/null_plus) [![[ci]](https://github.com/janlelis/null_plus/workflows/Test/badge.svg)](https://github.com/janlelis/null_plus/actions?query=workflow%3ATest)
+# +`nil` [![[version]](https://badge.fury.io/rb/null_plus.svg)](https://badge.fury.io/rb/null_plus) [![[ci]](https://github.com/janlelis/null_plus/workflows/Test/badge.svg)](https://github.com/janlelis/null_plus/actions?query=workflow%3ATest)
 
 This gem redefines Ruby's unary `+` operator to turn null objects into nil. By default, the unary `+` operator is rarely¹ used by Ruby, so overloading it is not so dangerous as it might have sounded to you when you read it.
 
